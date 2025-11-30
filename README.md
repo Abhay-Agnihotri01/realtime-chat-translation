@@ -1,14 +1,3 @@
----
-title: Multilingual Chat App
-emoji: 😻
-colorFrom: indigo
-colorTo: green
-sdk: docker
-pinned: false
-license: mit
-short_description: 'Real-Time Multilingual Chat Translation System '
----
-
 # Real-Time Multilingual Chat Translation System
 
 🌐 **Live Demo**: [https://huggingface.co/spaces/Abhay786/multilingual-chat-app](https://huggingface.co/spaces/Abhay786/multilingual-chat-app)
