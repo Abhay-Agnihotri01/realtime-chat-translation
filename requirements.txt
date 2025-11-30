@@ -1,0 +1,10 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+transformers==4.35.2
+torch>=2.2.0
+sacremoses==0.1.1
+sentencepiece
+redis==5.0.1
+python-dotenv==1.0.0
+sacrebleu==2.3.1
