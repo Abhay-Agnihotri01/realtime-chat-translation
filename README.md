@@ -56,7 +56,6 @@ A cutting-edge real-time text messaging translation system designed to eliminate
 - **Frontend**: React.js with WebSocket integration
 - **Backend**: Python FastAPI with async processing
 - **NLP Models**: Transformer-based translation models
-- **Database**: Redis for caching, PostgreSQL for user preferences
 - **Deployment**: Docker containers on cloud infrastructure
 - **Monitoring**: Real-time performance tracking and logging
 
@@ -78,8 +77,6 @@ A cutting-edge real-time text messaging translation system designed to eliminate
 - Python 3.8+
 - Docker and Docker Compose
 - Node.js 16+ (for frontend development)
-- Redis server
-- PostgreSQL database
 
 ### Quick Start
 ```bash
@@ -91,27 +88,12 @@ cd multilingual-chat-app
 pip install -r requirements.txt
 npm install
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your configuration
-
 # Run with Docker Compose
 docker-compose up -d
 
 # Or run locally
 python app.py
 ```
-
-### Environment Configuration
-```bash
-# .env file
-TRANSLATION_API_KEY=your_api_key
-REDIS_URL=redis://localhost:6379
-DATABASE_URL=postgresql://user:pass@localhost/chatdb
-SECRET_KEY=your_secret_key
-DEBUG=False
-```
-
 ## Usage
 
 ### Web Interface
@@ -264,6 +246,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Built with ❤️ for breaking down language barriers in global communication**
 
-📧 Contact: [Your Email]
+📧 Contact: abhayagnihotri976@gmail.com
 🐛 Issues: [GitHub Issues](https://github.com/Abhay786/multilingual-chat-app/issues)
 📖 Documentation: [Wiki](https://github.com/Abhay786/multilingual-chat-app/wiki)
